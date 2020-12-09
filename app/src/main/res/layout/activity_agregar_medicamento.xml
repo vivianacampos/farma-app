@@ -31,19 +31,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/etFormato"
-        android:layout_width="245dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="348dp"
-        android:ems="10"
-        android:hint="Comprimido - Jarabe - IDM"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnBuscar"
         android:layout_width="166dp"
@@ -70,12 +57,25 @@
         />
 
     <EditText
+        android:id="@+id/etId"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
         android:id="@+id/etMg"
         android:layout_width="245dp"
         android:layout_height="45dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="300dp"
         android:ems="10"
         android:hint="Miligramos"
         android:inputType="number"
@@ -83,14 +83,41 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etId"
+        android:id="@+id/etMedicamento"
         android:layout_width="245dp"
         android:layout_height="45dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="224dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="ID"
+        android:hint="Nombre medicamento"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etValor"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="444dp"
+        android:ems="10"
+        android:hint="Valor"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etFormato"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:hint="Comprimido - Jarabe - IDM"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -107,32 +134,5 @@
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="modificar"
         />
-
-    <EditText
-        android:id="@+id/etValor"
-        android:layout_width="245dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="420dp"
-        android:ems="10"
-        android:hint="Valor"
-        android:inputType="number"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/etMedicamento"
-        android:layout_width="245dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="200dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="Nombre medicamento"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

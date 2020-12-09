@@ -38,8 +38,8 @@
 
     <EditText
         android:id="@+id/etBusqueda"
-        android:layout_width="396dp"
-        android:layout_height="52dp"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
         android:layout_marginStart="68dp"
         android:layout_marginLeft="68dp"
         android:layout_marginTop="120dp"
@@ -68,7 +68,6 @@
         android:layout_marginStart="88dp"
         android:layout_marginLeft="88dp"
         android:layout_marginTop="192dp"
-        android:onClick="buscar"
         android:text="Buscar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
